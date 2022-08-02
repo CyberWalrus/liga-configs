@@ -1,0 +1,11 @@
+.*/
+build/
+webpack/
+node_modules/
+configs/
+src/client/statics/
+__mocks__/
+.eslintrc.js
+jest.config.js
+.idea/
+.vscode/
