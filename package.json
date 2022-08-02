@@ -1,0 +1,12 @@
+{
+  "name": "liga-configs",
+  "version": "1.0.0",
+  "repository": "https://github.com/CyberWalrus/liga-configs",
+  "author": "Andrey Pakhomov <stonewalrusfan@gmail.com>",
+  "bin": {
+    "liga-configs": "cli.js"
+  },
+  "dependencies": {
+    "commander": "^9.4.0"
+  }
+}
