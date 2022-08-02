@@ -4,9 +4,11 @@
   "repository": "https://github.com/CyberWalrus/liga-configs",
   "author": "Andrey Pakhomov <stonewalrusfan@gmail.com>",
   "bin": {
-    "liga-configs": "cli.js"
+    "liga-configs": "cli.ts"
   },
   "dependencies": {
-    "commander": "^9.4.0"
+    "commander": "9.4.0",
+    "ts-node": "10.9.1",
+    "typescript": "4.7.4"
   }
 }
