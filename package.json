@@ -7,10 +7,6 @@
     "liga-configs": "cli.ts"
   },
   "dependencies": {
-    "@types/node": "18.6.3",
-    "commander": "9.4.0",
-    "ts-node": "10.9.1",
-    "tslib": "2.4.0",
-    "typescript": "4.7.4"
+    "commander": "9.4.0"
   }
 }

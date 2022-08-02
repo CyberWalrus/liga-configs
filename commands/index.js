@@ -1,4 +1,4 @@
-import { Command } from 'commander';
+const { Command } = require('commander');
 
 const printError = (err) => {
 	if (!err) {
