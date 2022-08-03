@@ -7,6 +7,7 @@ export type FileSettingsItem = {
 const fileSettings: FileSettingsItem[] = [
 	{ name: 'eslintrc.js', destination: '.eslintrc.js', overwrite: true },
 	{ name: 'eslintignore', destination: '.eslintignore' },
+	{ name: 'module-configs.json', destination: 'module-configs.json' },
 ];
 
 export default fileSettings;
