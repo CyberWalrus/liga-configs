@@ -1,0 +1,6 @@
+{
+	"$schema": "../configs/module.config.schema.json",
+	"projectName": "",
+	"eslint": true,
+	"typescript": true
+}

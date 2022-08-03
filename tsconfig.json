@@ -2,8 +2,13 @@
 	"compilerOptions": {
 		"target": "ESNext",
 		"module": "CommonJS",
-		"lib": ["dom", "dom.iterable", "ESNext"],
-    "outDir": "./lib",
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"ESNext"
+		],
+		"rootDir": "./src",
+		"outDir": "./app",
 		"skipLibCheck": true,
 		"esModuleInterop": true,
 		"experimentalDecorators": true,
@@ -15,5 +20,8 @@
 		"jsx": "react-jsx",
 		"importHelpers": true,
 		"baseUrl": "./src"
-	}
+	},
+	"include": [
+		"./src"
+	]
 }

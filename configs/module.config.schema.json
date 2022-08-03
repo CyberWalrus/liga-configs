@@ -1,0 +1,19 @@
+{
+  "$id": "https://example.com/module.config.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "description": "A representation of an event",
+  "type": "object",
+  "required": [ "projectName", "eslint", "typescript" ],
+  "properties": {
+    "projectName": {
+      "type": "string",
+      "description": "Project name"
+    },
+    "eslint": {
+      "type": "boolean"
+    },
+    "typescript": {
+      "type": "boolean"
+    }
+  }
+}
