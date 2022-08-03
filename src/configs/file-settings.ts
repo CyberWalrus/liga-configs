@@ -4,7 +4,7 @@ export type FileSettingsItem = {
 	overwrite?: boolean,
 }
 
-const fileSettings = [
+const fileSettings: FileSettingsItem[] = [
 	{ name: 'eslintrc.js', destination: '.eslintrc.js', overwrite: true },
 	{ name: 'eslintignore', destination: '.eslintignore' },
 ];

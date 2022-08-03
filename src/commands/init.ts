@@ -9,7 +9,7 @@ const logger = createLogger('init-command');
 
 const copyFiles = () => Promise.all(
 		fileSettings.map(async ({ name, destination, overwrite = false }) => {
-			const src = path.resolve(__dirname, '../../template', `./${name}`);
+			const src = path.resolve(__dirname, '../../templates', `./${name}`);
 			const dst = path.resolve(process.cwd(), destination);
 
 			try {
