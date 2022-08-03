@@ -10,6 +10,10 @@
   "bin": {
     "liga-configs": "cli.js"
   },
+  "files": [
+    "configs",
+    "README.md"
+  ],
   "dependencies": {
     "@types/node": "18.6.3",
     "commander": "9.4.0",
