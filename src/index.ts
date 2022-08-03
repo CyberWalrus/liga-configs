@@ -1,8 +1,8 @@
 
 import {Command} from 'commander'
 
-import { printError } from '$utils/print-error'
-import { lint } from '$commands/lint';
+import { printError } from './utils/print-error'
+import { lint } from './commands/lint';
 
 (async () => {
 	try {
