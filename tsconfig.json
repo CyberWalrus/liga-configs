@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "AMD",
+    "lib": ["ESNext"],
+    "rootDir": "./src/",
+    "outFile": "./lib/index.js",
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"experimentalDecorators": true,
+		"preserveConstEnums": true,
+		"strictFunctionTypes": false,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node",
+		"jsx": "react-jsx",
+		"importHelpers": true,
+		"baseUrl": "./src",
+		"paths": {
+			"$*": ["*"]
+		},
+  }
+}
