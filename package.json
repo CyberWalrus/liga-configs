@@ -5,7 +5,6 @@
   "author": "Andrey Pakhomov <stonewalrusfan@gmail.com>",
   "scripts": {
     "build": "tsc --b",
-    "prepare": "tsc --b",
     "install": "tsc --b",
     "postinstall": "tsc --b"
   },
