@@ -4,7 +4,10 @@
   "repository": "https://github.com/CyberWalrus/liga-configs",
   "author": "Andrey Pakhomov <stonewalrusfan@gmail.com>",
   "scripts": {
-    "build": "tsc --b"
+    "build": "tsc --b",
+    "prepare": "tsc --b",
+    "install": "tsc --b",
+    "postinstall": "tsc --b"
   },
   "bin": {
     "liga-configs": "cli.js"
